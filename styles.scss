@@ -22,10 +22,98 @@ $libreFranklin: "Libre Franklin", sans-serif;
 
 body {
 	font-size: 20px;
-	width: 100%;
+	text-align: center;
+	font-family: $libreFranklin;
+	padding: 3.5rem 1.25rem 2rem 1.25rem;
+}
+
+.logo {
+	width: 3.25rem;
+	margin-bottom: 2rem;
+}
+
+h1 {
+	font-weight: 300;
+	color: $gray;
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+	span {
+		font-weight: 700;
+		color: $veryDarkBlue;
+	}
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 0.75rem;
+	color: $veryDarkBlue;
+	margin-bottom: 1.5rem;
+}
+
+form {
+	.input-container {
+		margin-bottom: 0.75rem;
+		input[type="text"] {
+			border: 1px solid $paleBlue;
+		}
+		span {
+			display: none;
+			color: $lightRed;
+			font-style: italic;
+			font-size: 0.75rem;
+		}
+	}
+	button {
+		border: 0;
+		background-color: $blue;
+		font-weight: 600;
+		color: white;
+		margin-bottom: 4rem;
+	}
+	input[type="text"],
+	button {
+		width: 20rem;
+		padding: 0.75rem 1.75rem;
+		border-radius: 25px;
+	}
+}
+
+::placeholder {
+	color: $paleBlue;
 }
 
 .dashboard-illu {
 	width: 100%;
 	height: auto;
+	margin-bottom: 6rem;
+}
+
+footer {
+	.socials {
+		margin-bottom: 2rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+		.fab {
+			border: 1px solid $paleBlue;
+			border-radius: 50%;
+			color: $blue;
+			padding: 0.25rem 0.35rem;
+			font-size: 1rem;
+			margin-right: 0.75rem;
+		}
+		.fab:hover {
+			color: white;
+			background-color: $blue;
+		}
+		.fa-facebook-f {
+			padding: 0.25rem 0.5rem;
+		}
+	}
+	p {
+		font-size: 0.75rem;
+		color: $gray;
+	}
 }

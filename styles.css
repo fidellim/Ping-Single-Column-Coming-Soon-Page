@@ -7,6 +7,95 @@
 
 body {
   font-size: 20px;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+  padding: 3.5rem 1.25rem 2rem 1.25rem;
+}
+
+.logo {
+  width: 3.25rem;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-weight: 300;
+  color: #969696;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+h1 span {
+  font-weight: 700;
+  color: #151f29;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: #151f29;
+  margin-bottom: 1.5rem;
+}
+
+form .input-container {
+  margin-bottom: 0.75rem;
+}
+form .input-container input[type=text] {
+  border: 1px solid #c2d3ff;
+}
+form .input-container span {
+  display: none;
+  color: #ff5263;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+form button {
+  border: 0;
+  background-color: #4f7df3;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 4rem;
+}
+form input[type=text],
+form button {
+  width: 20rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 25px;
+}
+
+::placeholder {
+  color: #c2d3ff;
+}
+
+.dashboard-illu {
+  width: 100%;
+  height: auto;
+  margin-bottom: 6rem;
+}
+
+footer .socials {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer .socials .fab {
+  border: 1px solid #c2d3ff;
+  border-radius: 50%;
+  color: #4f7df3;
+  padding: 0.25rem 0.35rem;
+  font-size: 1rem;
+  margin-right: 0.75rem;
+}
+footer .socials .fab:hover {
+  color: white;
+  background-color: #4f7df3;
+}
+footer .socials .fa-facebook-f {
+  padding: 0.25rem 0.5rem;
+}
+footer p {
+  font-size: 0.75rem;
+  color: #969696;
 }
 
 /*# sourceMappingURL=styles.css.map */

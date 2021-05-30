@@ -16,32 +16,34 @@
 <body>
 
   <div class="container">
-    <img src="./images/logo.svg" alt="logo">
-    <h1>We are launching soon!</h1>
+    <img src="./images/logo.svg" class="logo" alt="logo">
+    <h1>We are launching <span>soon!</span></h1>
     <h3>Subscribe and get notified</h3>
     
-    <form action="">
+    <form class="formSubmit">
       <div class="input-container">
-        <input type="text" placeholder="Your email address">
-        <span>Please provide a valid email address</span>
+        <input type="text" placeholder="Your email address" class="inputText">
+        <span class="errorText">Please provide a valid email address</span>
       </div>
       <button>Notify Me</button>
     </form>
     
     <img src="./images/illustration-dashboard.png" class="dashboard-illu" alt="dashboard illustration">
     
-    <div class="socials">
-      <div>
-        <i class="fab fa-facebook-f"></i>
+    <footer>
+      <div class="socials">
+        <div>
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <div>
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div>
+          <i class="fab fa-instagram"></i>
+        </div>
       </div>
-      <div>
-        <i class="fab fa-twitter"></i>
-      </div>
-      <div>
-        <i class="fab fa-instagram"></i>
-      </div>
-    </div>
-    <p>&copy; Copyright Ping. All rights reserved.</p>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
   </div>
 
   <script src="/index.js"></script>
