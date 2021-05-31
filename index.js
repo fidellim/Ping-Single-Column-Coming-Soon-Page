@@ -14,8 +14,17 @@ formSubmit.addEventListener("submit", (event) => {
 		inputText.style.borderColor = "hsl(354, 100%, 66%)";
 		inputText.style.borderWidth = "2px";
 		inputText.style.marginBottom = ".5rem";
-		errorText.style.marginBottom = "1.5rem";
 
+		// check screen size
+		if (window.screen.width > 700) {
+			errorText.style.marginBottom = "0rem";
+			errorText.style.textAlign = "left";
+			errorText.style.paddingLeft = "1rem";
+		} else {
+			errorText.style.marginBottom = "1.5rem";
+			errorText.style.textAlign = "center";
+			errorText.style.paddingLeft = "0rem";
+		}
 		if (inputText.value.trim() === "") {
 			errorText.innerHTML =
 				"Whoops! It looks like you forgot to add your email";
@@ -26,5 +35,6 @@ formSubmit.addEventListener("submit", (event) => {
 		errorText.style.display = "none";
 		inputText.style.borderColor = "hsl(223, 100%, 88%)";
 		inputText.style.borderWidth = "1px";
+		inputText.style.marginBottom = "0rem";
 	}
 });
