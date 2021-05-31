@@ -30,12 +30,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Solution PC](./images/Solution%20PC.png)
+![Solution Mobile](./images/Solution%20MobileC.png)
+![Solution Mobile Error](./images/Solution%20Mobile%20Erorr.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/fidellim/Ping-Single-Column-Coming-Soon-Page)
+- Live Site URL: [Live Site](https://serene-rosalind-dbee7e.netlify.app/)
 
 ## My process
 
@@ -48,33 +50,23 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-	color: papayawhip;
-}
-```
+How to determine the screen size in Javascript.
 
 ```js
-const proudOfThisFunc = () => {
-	console.log("🎉");
-};
+if (window.screen.width > 700) {
+	errorText.style.marginBottom = "0rem";
+	errorText.style.textAlign = "left";
+	errorText.style.paddingLeft = "1rem";
+}
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+To be able to learn more complex Javascript
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Screen Size in Javascript](https://stackoverflow.com/questions/3437786/get-the-size-of-the-screen-current-web-page-and-browser-window) - This helped me determine the screen size in Javascript.
 
 ## Author
 
