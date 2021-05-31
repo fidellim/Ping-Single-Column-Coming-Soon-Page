@@ -31,8 +31,8 @@ Users should be able to:
 ### Screenshot
 
 ![Solution PC](./images/Solution%20PC.png)
-![Solution Mobile](./images/Solution%20MobileC.png)
-![Solution Mobile Error](./images/Solution%20Mobile%20Erorr.png)
+![Solution Mobile](./images/Solution%20Mobile.png)
+![Solution Mobile Error](./images/Solution%20Mobile%20Error.png)
 
 ### Links
 
