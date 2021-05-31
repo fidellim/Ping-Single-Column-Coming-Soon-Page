@@ -18,11 +18,9 @@ formSubmit.addEventListener("submit", (event) => {
 		// check screen size
 		if (window.screen.width > 700) {
 			errorText.style.marginBottom = "0rem";
-			errorText.style.textAlign = "left";
 			errorText.style.paddingLeft = "1rem";
-		} else {
+		} else if (window.screen.width <= 700) {
 			errorText.style.marginBottom = "1.5rem";
-			errorText.style.textAlign = "center";
 			errorText.style.paddingLeft = "0rem";
 		}
 		if (inputText.value.trim() === "") {

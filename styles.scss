@@ -57,6 +57,7 @@ form {
 			border: 1px solid $paleBlue;
 		}
 		span {
+			text-align: center;
 			display: none;
 			color: $lightRed;
 			font-style: italic;
@@ -151,7 +152,6 @@ button {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		// align-items: center;
 
 		.input-container {
 			margin-right: 1rem;
@@ -159,6 +159,10 @@ button {
 
 			input[type="text"] {
 				width: 100%;
+			}
+
+			span {
+				text-align: left;
 			}
 		}
 

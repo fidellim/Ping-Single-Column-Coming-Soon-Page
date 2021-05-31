@@ -42,6 +42,7 @@ form .input-container input[type=text] {
   border: 1px solid #c2d3ff;
 }
 form .input-container span {
+  text-align: center;
   display: none;
   color: #ff5263;
   font-style: italic;
@@ -141,6 +142,9 @@ button {
   }
   form .input-container input[type=text] {
     width: 100%;
+  }
+  form .input-container span {
+    text-align: left;
   }
   form button {
     width: 20%;
